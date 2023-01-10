@@ -14,28 +14,28 @@
 #define RVK_CD_UP       "h"
 #define RVK_HOME        "H"
 #define RVK_TARGET      "t"
-#define RVK_COPY_PATH   "y"
-#define RVK_PASTE_PATH  "p"
+#define RVK_COPY_PATH   "M-Y" // y -> M-Y
+#define RVK_PASTE_PATH  "M-P" // p -> M-P
 #define RVK_REFRESH     "r"
 #define RVK_SHELL       "^M"
-#define RVK_VIEW        " "
+#define RVK_VIEW        "v" // " " -> v
 #define RVK_EDIT        "e"
 #define RVK_OPEN        "o"
 #define RVK_SEARCH      "/"
 #define RVK_TG_FILES    "f"
-#define RVK_TG_DIRS     "d"
+#define RVK_TG_DIRS     "M-D" // d -> M-D
 #define RVK_TG_HIDDEN   "s"
 #define RVK_NEW_FILE    "n"
 #define RVK_NEW_DIR     "N"
 #define RVK_RENAME      "R"
 #define RVK_TG_EXEC     "E"
 #define RVK_DELETE      "D"
-#define RVK_TG_MARK     "m"
+#define RVK_TG_MARK     " " // m -> " "
 #define RVK_INVMARK     "M"
 #define RVK_MARKALL     "a"
-#define RVK_MARK_DELETE "X"
-#define RVK_MARK_COPY   "C"
-#define RVK_MARK_MOVE   "V"
+#define RVK_MARK_DELETE "d" // X -> d
+#define RVK_MARK_COPY   "y" // C -> y
+#define RVK_MARK_MOVE   "p" // V -> p
 
 /* Colors available: DEFAULT, RED, GREEN, YELLOW, BLUE, CYAN, MAGENTA, WHITE, BLACK. */
 #define RVC_CWD         GREEN
